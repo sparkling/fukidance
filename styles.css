@@ -21,18 +21,38 @@ video {
   object-fit: cover;
 }
 
-#container {
+#video-container {
   height: 100vh;
 }
 
 .hamburger {
   float: right;
   margin-right: 1em;
+  display: inline-block;
+  color: wheat;
+}
+
+#credit {
+  color: wheat;
+  opacity: 75%;
+  margin-top: -3em;
+  font-family: 'Montserrat';
+  width: 100%;
+  text-align: right;
+  position: absolute;
+}
+
+#credit a {
+  color: wheat;
+}
+
+#credit > p {
+  margin-right: 1em;
 }
 
 #nav {
   margin: 1em 2em 0 0;
-  color: white;
+  color: wheat;
   position: absolute;
   width: 100%;
   font-family: Montserrat;
@@ -41,11 +61,18 @@ video {
 
 #nav ul {
   float: right;
-  display: none;
+  max-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+
 }
 
 #nav ul.is-active {
-  display: block;
+  max-width: 100%;
+  transition-property: max-width;
+  transition-delay: 0s;
+  transition-duration: 2s;
+  transition-timing-function: ease;
 }
 
 #nav li {
@@ -55,4 +82,9 @@ video {
 
 #nav li:last {
   margin-right: 0;
+}
+
+#nav li a {
+  color: wheat;
+  text-decoration: none;
 }
