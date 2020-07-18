@@ -10,7 +10,8 @@ module.exports = function(eleventyConfig) {
   return {
     dir: {
       includes: "_includes",
-      layouts: "layouts"
+      layouts: "layouts",
+      input: "src"
     }
   }
 };
