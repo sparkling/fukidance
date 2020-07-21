@@ -1,6 +1,4 @@
-:root {
-  --hamburger-color: white;
-}
+
 
 .hamburger:focus{
     outline: none;

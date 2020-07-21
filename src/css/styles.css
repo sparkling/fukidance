@@ -1,5 +1,14 @@
 @import url("hamburgers.css");
 
+
+body {
+  --hamburger-color: black;
+}
+
+#home {
+  --hamburger-color: white;
+}
+
 /* montserrat-regular - latin */
 @font-face {
   font-family: 'Montserrat';
@@ -10,9 +19,16 @@
        url('/fonts/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-body {
+body#home {
   margin: 0;
   background-color: black;
+}
+
+p.heading {
+  font-size: 2.5em;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0.5em
 }
 
 video {
@@ -29,7 +45,6 @@ video {
   float: right;
   margin-right: 1em;
   display: inline-block;
-  color: wheat;
 }
 
 #credit {
@@ -85,6 +100,18 @@ video {
 }
 
 #nav li a {
-  color: wheat;
   text-decoration: none;
+}
+
+#home #nav li a {
+  color: wheat;
+}
+
+
+
+
+
+.work-item {
+  margin-bottom: 4em;
+  max-width: 800px;
 }
