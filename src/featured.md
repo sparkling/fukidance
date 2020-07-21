@@ -31,9 +31,7 @@ https://www.youtube.com/watch?v=DpVfF4U75B8&feature=emb_logo
 ::: work-item
 ## Diner's Club Card TV Commercial
 
-::: vimeo-box
 https://vimeo.com/394987145
-:::
 
 ::: work-info
 - Director: Tomokazu Yamada
@@ -109,9 +107,7 @@ Dancers:
 ::: work-item
 ## Jessica Bugg Emotion Collection: Blue Air Dress
 
-::: vimeo-box
 https://vimeo.com/39469839
-:::
 
 ::: work-info
 Concept, design & creative direction by Dr Jessica Bugg
@@ -147,9 +143,7 @@ https://www.youtube.com/watch?v=l6XOwb_uPUk&feature=emb_logo
 ::: work-item
 ## Jessica Bugg - Drawing with the Body and Cloth
 
-::: vimeo-box
 https://vimeo.com/68455399
-:::
 
 ::: work-info
 - Designer & Artistic Director: Jessica Bugg
