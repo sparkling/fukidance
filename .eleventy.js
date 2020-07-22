@@ -4,16 +4,30 @@ const embedVimeo = require("eleventy-plugin-vimeo-embed");
 const markdownIt = require("markdown-it");
 const markdownItAttrs = require("markdown-it-attrs");
 const markdownItDivs = require("markdown-it-div");
-const markdownItAnchor = require("markdown-it-anchor", {
-  permalink: true
-});
+const markdownItAnchor = require("markdown-it-anchor");
 const markdownItToc = require("markdown-it-toc-done-right");
+const markdownTableMd = require('markdown-it-multimd-table');
 
 const markdownItOptions = {
   html: false,
   xhtmlOut: true,
   typographer: true
 };
+
+const markdownItAnchorOptions = {
+  permalink: false,
+  level: 2
+}
+
+const markdownItTocOptions = {
+  level: 2
+}
+
+const markdownTableMdOptions = {
+  multiline:  false,
+  rowspan:    false,
+  headerless: true
+}
 
 
 const eleventyOptions = {
@@ -60,8 +74,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownIt(markdownItOptions)
     .use(markdownItAttrs)
     .use(markdownItDivs)
-    .use(markdownItAnchor)
-    .use(markdownItToc));
+    .use(markdownItAnchor, markdownItAnchorOptions)
+    .use(markdownItToc, markdownItTocOptions)
+    .use(markdownTableMd, markdownTableMdOptions));
 
 
   return eleventyOptions;

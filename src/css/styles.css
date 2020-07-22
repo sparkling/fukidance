@@ -3,6 +3,7 @@
 
 body {
   --hamburger-color: black;
+  background-color: white;
 }
 
 #home {
@@ -24,11 +25,46 @@ body#home {
   background-color: black;
 }
 
-p.heading {
-  font-size: 2.5em;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  margin-top: 0.5em
+#grid-container {
+  display: grid;
+
+  grid-template-columns:
+    [left-buffer heading-start] minmax(0,40px)
+    [content] minmax(0,1fr)
+    [right-buffer heading-end] minmax(0,40px)
+}
+
+.heading {
+  grid-row: 1;
+  grid-column: heading-start / heading-end;
+}
+
+.content {
+  grid-row: 2;
+  grid-column: content;
+}
+
+h1 {
+  grid-column: heading;
+  text-align: center;
+}
+
+.work-items {
+  grid-column: content;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 40em);
+  grid-gap: 3em 0;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+
+.work-item {
+  padding: 0.5em 2em;
+  box-shadow: 5px 10px 10px darkgrey;
+  transition: 0.3s;
+  background-color: wheat;
+  border-radius: 20px;
 }
 
 video {
@@ -105,13 +141,4 @@ video {
 
 #home #nav li a {
   color: wheat;
-}
-
-
-
-
-
-.work-item {
-  margin-bottom: 4em;
-  max-width: 1024px;
 }

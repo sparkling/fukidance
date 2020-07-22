@@ -7,24 +7,9 @@
     <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
   </head>
   <body>
-    <div id="nav">
-      <button class="hamburger hamburger--collapse" type="button">
-        <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-        </span>
-      </button>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="about">About</a></li>
-        <li><a href="choreography">Choreography</a></li>
-        <li><a href="featured">Featured</a></li>
-        <li><a href="review">Review</a></li>
-        <li><a href="news">News</a></li>
-        <li><a href="contact">Contact</a></li>
-      </ul>
-
+    <div id="grid-container">
+      {{ content | safe }}
     </div>
-    {{ content | safe }}
     <script>
     /**
      * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
