@@ -18,7 +18,8 @@ https://www.youtube.com/watch?v=DpVfF4U75B8&feature=emb_logo
 | Production Company | STK Films |
 | Producer | Helen Power |
 | Director of Photography | Nick Wood |
-| Editor | Dominic Leung @ Trim Focus | Karl Hui |
+| Editor | Dominic Leung @ Trim Focus |
+| | Karl Hui |
 | Gaffer | Paul Allen |
 | Make up | Carol Hart |
 | Suit  | Norton & Sons |
@@ -79,16 +80,11 @@ https://www.youtube.com/watch?v=_Dat9CRV800
 
 |--|--|
 | Choreography | Wayne McGregor
-| Dancers | Fukiko Takase |
-| | Anna Nowak |
-| | Jessica Wright |
-| | Daniela Neugebauer |
-| | Catarina Carvalho |
-| | Michael John Harper |
-| | Alvaro Dule |
-| | Travis Clausen-Knight |
-| | James Pett |
-| | Louis McMiller |
+| Dancers | Fukiko Takase | Louis McMiller |
+| | Anna Nowak | James Pett |
+| | Jessica Wright | Travis Clausen-Knight |
+| | Daniela Neugebauer | Alvaro Dule |
+| | Catarina Carvalho | Michael John Harper |
 :::
 
 ::: work-item

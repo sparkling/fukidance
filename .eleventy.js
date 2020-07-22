@@ -68,7 +68,7 @@ module.exports = function(eleventyConfig) {
     "html",
     "css"
   ]);
-  eleventyConfig.addPlugin(embeds);
+  eleventyConfig.addPlugin(embeds, embedsOptions);
   eleventyConfig.addPlugin(embedYouTube, embedYoutubeOptions);
   eleventyConfig.addPlugin(embedVimeo, embedVimeoOptions);
   eleventyConfig.setLibrary("md", markdownIt(markdownItOptions)
