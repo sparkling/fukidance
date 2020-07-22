@@ -71,6 +71,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(embeds, embedsOptions);
   eleventyConfig.addPlugin(embedYouTube, embedYoutubeOptions);
   eleventyConfig.addPlugin(embedVimeo, embedVimeoOptions);
+  eleventyConfig.addPassthroughCopy('CNAME');
   eleventyConfig.setLibrary("md", markdownIt(markdownItOptions)
     .use(markdownItAttrs)
     .use(markdownItDivs)
