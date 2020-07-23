@@ -95,8 +95,12 @@ h4 {
   padding-top: 0;
 }
 
+.work-item table {
+
+}
+
 .work-item table td {
-  width: 1fr;
+  max-width: 50%;
   padding-right: 1em;
   vertical-align: bottom;
   height: 1em;
@@ -109,7 +113,6 @@ h4 {
 .work-item table td:first-of-type {
   font-weight: bold;
   margin-top: 0;
-  max-width: 15em;
 }
 
 .work-item table tr:not(:first-of-type) td:first-of-type:not(:empty) {
