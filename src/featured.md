@@ -7,7 +7,8 @@ layout: layout.njk
 
 ::: work-items
 ::: work-item
-## Atoms for Peace - Ingenue {.style-me}
+## Atoms for Peace
+### Ingenue
 
 https://www.youtube.com/watch?v=DpVfF4U75B8&feature=emb_logo
 
@@ -28,7 +29,8 @@ https://www.youtube.com/watch?v=DpVfF4U75B8&feature=emb_logo
 :::
 
 ::: work-item
-## Diner's Club Card TV Commercial
+## Diner's Club Card
+### TV Commercial
 
 https://vimeo.com/394987145
 
@@ -50,18 +52,17 @@ https://vimeo.com/394987145
 ## Interview in Japanese
 
 https://www.youtube.com/watch?v=1TI9_h_AE8I
-
 :::
 
 ::: work-item
 ## TOYOTA Harrier TV Commercial
 
 https://www.youtube.com/watch?v=ixQbPLDOmhs
-
 :::
 
 ::: work-item
-## BBC Proms 2015 - Live at Royal Albert Hall
+## BBC Proms 2015
+### Live at Royal Albert Hall
 
 https://www.youtube.com/watch?v=7i5C_jqFpH0
 
@@ -74,7 +75,8 @@ https://www.youtube.com/watch?v=7i5C_jqFpH0
 :::
 
 ::: work-item
-## BRIT Awards 2015 - Paloma Faith - Only Love Can Hurt Like This (Live)
+## BRIT Awards 2015
+### Paloma Faith - Only Love Can Hurt Like This (Live)
 
 https://www.youtube.com/watch?v=_Dat9CRV800
 
@@ -88,7 +90,8 @@ https://www.youtube.com/watch?v=_Dat9CRV800
 :::
 
 ::: work-item
-## Jessica Bugg Emotion Collection: Blue Air Dress
+## Jessica Bugg Emotion Collection
+### Blue Air Dress
 
 https://vimeo.com/39469839
 
@@ -99,30 +102,37 @@ https://vimeo.com/39469839
 :::
 
 ::: work-item
-## A physical transformation | Henka Dance by Ollie Murray & Rohan Wadham | Dance Short | Random
+## A physical transformation
+### Henka Dance
 
 https://www.youtube.com/watch?v=ThaGlR8Os_w&feature=emb_logo
+
+by Ollie Murray & Rohan Wadham | Dance Short | Random
 :::
 
 ::: work-item
-## Jlin - The Abyss Of Doubt
+## Jlin
+### The Abyss Of Doubt
 
 https://www.youtube.com/watch?v=l6XOwb_uPUk&feature=emb_logo
 
 |--|--|
 | Music composed by | Jerrilynn Patton |
 | Video directed by | Ben Cullen Williams |
-| Edited by | Ben Cullen Williams (on behalf of Studio Wayne McGregor) |
+| Edited by | Ben Cullen Williams |
+| | Studio Wayne McGregor |
 | Choreography by | Wayne McGregor |
 | Performed by | Company Wayne McGregor |
-| Filmed by | Ravi Deepres and Luke Unsworth |
+| Filmed by | Ravi Deepres
+| | Luke Unsworth |
 | Lighting Design by | Lucy Carter |
 | Projection Design by | Ben Cullen Williams |
 | Costume Design by | Aitor Throup |
 :::
 
 ::: work-item
-## Jessica Bugg - Drawing with the Body and Cloth
+## Jessica Bugg
+### Drawing with the Body and Cloth
 
 https://vimeo.com/68455399
 
@@ -138,7 +148,8 @@ https://vimeo.com/68455399
 :::
 
 ::: work-item
-## MOVEment: Gareth Pugh x Wayne McGregor
+## MOVEment
+### Gareth Pugh x Wayne McGregor
 
 https://www.youtube.com/watch?v=1jf-rmjGXvY&feature=emb_logo
 

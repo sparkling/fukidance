@@ -4,10 +4,13 @@
 body {
   --hamburger-color: black;
   background-color: white;
+  font-family: 'Montserrat';
+  padding-bottom: 2em;
 }
 
 #home {
   --hamburger-color: white;
+  padding-bottom: 0;
 }
 
 /* montserrat-regular - latin */
@@ -51,12 +54,15 @@ h1 {
   font-size: 4em;
 }
 
+h3 {
+  margin-top: -0.75em;
+}
 
 
 .work-items {
   grid-column: content;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 40em);
+  grid-template-columns: repeat(auto-fit, minmax(10em, 40em));
   grid-gap: 4em;
   justify-content: center;
   align-content: flex-start;
@@ -64,23 +70,36 @@ h1 {
 /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
 
 .work-item {
-  padding: 0 2em 1em;
+  padding: 0 2em 1.5em;
   box-shadow: 5px 10px 10px darkgrey;
   transition: 0.3s;
   background-color: wheat;
   border-radius: 20px;
 }
 
+.work-item table tr {
+  height: 1.75em;
+}
+
+.work-item table td {
+  width: 1fr;
+  padding-right: 1em;
+}
+
 .work-item table td:first-of-type {
-  width: 10em
+  font-weight: bold;
+}
+
+.work-item table tr:not(:first-of-type) td:first-of-type:not(:empty) {
+  /*padding-top: 0.5em;*/
 }
 
 .vimeo-embed, .youtube-embed {
-  padding-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .vimeo-embed {
-  margin-top: -1em;
+
 }
 
 video {
