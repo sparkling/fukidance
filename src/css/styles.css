@@ -109,6 +109,7 @@ h4 {
 .work-item table td:first-of-type {
   font-weight: bold;
   margin-top: 0;
+  max-width: 15em;
 }
 
 .work-item table tr:not(:first-of-type) td:first-of-type:not(:empty) {
