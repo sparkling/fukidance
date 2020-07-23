@@ -20,7 +20,8 @@ https://www.youtube.com/watch?v=DpVfF4U75B8&feature=emb_logo
 | Production Company | STK Films |
 | Producer | Helen Power |
 | Director of Photography | Nick Wood |
-| Editor | Dominic Leung @ Trim Focus |
+| Editor | Dominic Leung
+| | @ Trim Focus &|
 | | Karl Hui |
 | Gaffer | Paul Allen |
 | Make up | Carol Hart |
@@ -51,7 +52,7 @@ https://vimeo.com/394987145
 |  | Myles Hunter |
 |  | Can Wang |
 |  | Garrett Parker |
-|  | Lynnette Paz | 
+|  | Lynnette Paz |
 :::
 :::
 
@@ -83,17 +84,23 @@ https://www.youtube.com/watch?v=7i5C_jqFpH0
 
 ::: work-item
 ## BRIT Awards 2015
-### Paloma Faith - Only Love Can Hurt Like This (Live)
+### Paloma Faith
+#### Only Love Can Hurt Like This (Live)
 
 https://www.youtube.com/watch?v=_Dat9CRV800
 
 |--|--|
 | Choreography | Wayne McGregor
-| Dancers | Fukiko Takase | Louis McMiller |
-| | Anna Nowak | James Pett |
-| | Jessica Wright | Travis Clausen-Knight |
-| | Daniela Neugebauer | Alvaro Dule |
-| | Catarina Carvalho | Michael John Harper |
+| Dancers | Fukiko Takase |
+| | Louis McMiller |
+| | Anna Nowak |
+| | James Pett |
+| | Jessica Wright |
+| | Travis Clausen-Knight |
+| | Daniela Neugebauer |
+| | Alvaro Dule |
+| | Catarina Carvalho |
+| | Michael John Harper |
 :::
 
 ::: work-item

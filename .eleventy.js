@@ -11,7 +11,8 @@ const markdownTableMd = require('markdown-it-multimd-table');
 const markdownItOptions = {
   html: false,
   xhtmlOut: true,
-  typographer: true
+  typographer: true,
+  breaks: true
 };
 
 const markdownItAnchorOptions = {

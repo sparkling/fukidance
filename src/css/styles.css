@@ -55,7 +55,12 @@ h1 {
 }
 
 h3 {
-  margin-top: -0.75em;
+  margin-top: -0.5em;
+}
+
+h4 {
+  margin-top: -0.85em;
+  margin-bottom: 0.5em;
 }
 
 
@@ -70,19 +75,24 @@ h3 {
 /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
 
 .work-item {
-  padding: 0 1em 1.5em;
+  padding: 0 1em 1em;
   box-shadow: 5px 10px 10px darkgrey;
   transition: 0.3s;
   background-color: wheat;
   border-radius: 20px;
+  line-height: 1.25em;
 }
 
 .work-item table td:empty ~ td{
   height: 1em;
 }
 
-.work-item table td:empty {
-  height: 1em;
+.work-item table td:first-of-type:not(:empty) {
+  padding-top: 0.75em;
+}
+
+.work-item table tr:first-of-type td:first-of-type:not(:empty) {
+  padding-top: 0;
 }
 
 .work-item table td {
@@ -90,7 +100,6 @@ h3 {
   padding-right: 1em;
   vertical-align: bottom;
   height: 1em;
-  height: 2em;
 }
 
 .work-item table td:last-of-type {
