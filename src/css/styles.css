@@ -32,9 +32,9 @@ body#home {
   display: grid;
 
   grid-template-columns:
-    [left-buffer heading-start] minmax(0,40px)
+    [left-buffer heading-start] minmax(0,5px)
     [content] minmax(0,1fr)
-    [right-buffer heading-end] minmax(0,40px)
+    [right-buffer heading-end] minmax(0,5px)
 }
 
 .heading {
@@ -70,24 +70,36 @@ h3 {
 /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
 
 .work-item {
-  padding: 0 2em 1.5em;
+  padding: 0 1em 1.5em;
   box-shadow: 5px 10px 10px darkgrey;
   transition: 0.3s;
   background-color: wheat;
   border-radius: 20px;
 }
 
-.work-item table tr {
-  height: 1.75em;
+.work-item table td:empty ~ td{
+  height: 1em;
+}
+
+.work-item table td:empty {
+  height: 1em;
 }
 
 .work-item table td {
   width: 1fr;
   padding-right: 1em;
+  vertical-align: bottom;
+  height: 1em;
+  height: 2em;
+}
+
+.work-item table td:last-of-type {
+  padding-right: 0;
 }
 
 .work-item table td:first-of-type {
   font-weight: bold;
+  margin-top: 0;
 }
 
 .work-item table tr:not(:first-of-type) td:first-of-type:not(:empty) {

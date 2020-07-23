@@ -13,7 +13,8 @@ layout: layout.njk
 https://www.youtube.com/watch?v=DpVfF4U75B8&feature=emb_logo
 
 |--|--|
-| Dancers | Thom Yorke and Fukiko Takase |
+| Dancers | Thom Yorke |
+| | Fukiko Takase |
 | Director | Garth Jennings |
 | Choreographer | Wayne McGregor |
 | Production Company | STK Films |
@@ -38,13 +39,19 @@ https://vimeo.com/394987145
 |--|--|
 | Director | Tomokazu Yamada |
 | Choreography | Fukiko Takase |
-| Dancers | Fukiko Takase | Tanner Ryan |
-|  | Kalliope Piersol | Mao Ishikawa |
-|  | Montana Dalton | Cemiyon Barber |
-|  | Symara Williams | Leo Hishikawa |
-|  | Kar'mel Small | Myles Hunter |
-|  | Can Wang | Garrett Parker |
-|  | Lynnette Paz |  |
+| Dancers | Fukiko Takase |
+|  | Tanner Ryan |
+|  | Kalliope Piersol |
+|  | Mao Ishikawa |
+|  | Montana Dalton |
+|  | Cemiyon Barber |
+|  | Symara Williams |
+|  | Leo Hishikawa |
+|  | Kar'mel Small |
+|  | Myles Hunter |
+|  | Can Wang |
+|  | Garrett Parker |
+|  | Lynnette Paz | 
 :::
 :::
 
