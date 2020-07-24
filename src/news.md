@@ -6,4 +6,9 @@ layout: layout.njk
 
 # News
 ::: work-items
+::: work-item
+## Performing for SHIVER 2020 Summer!!
+
+[https://ballenta.net/shiver]()
+:::
 :::
