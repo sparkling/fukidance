@@ -4,7 +4,6 @@ date: "2012-04-06"
 layout: layout.njk
 ---
 
-# Reviews
 ::: work-items
 ::: work-item
 [Dance Plug, Steven Woodruff, Autobiography review, 11/10/2018 Ahmanson Theatre, Los Angeles, USA](https://www.danceplug.com/articles/mcgregors-autobiography-is-an-unconventional-dance-spectacle)

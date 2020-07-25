@@ -3,7 +3,6 @@ title: Featured
 date: "2012-04-06"
 layout: layout.njk
 ---
-# About
 ::: work-items
 Born in New York, raised and trained in Japan by Takako Takase and Takako’s teacher Katsuko Orita. Fukiko has been dancing since the age of two, the nature of being a daughter of dancer, growing up in studios and theatres which conformably made dance as her first language to speak.
 

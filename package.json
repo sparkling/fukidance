@@ -16,6 +16,7 @@
     "markdown-it-attrs": "^3.0.3",
     "markdown-it-div": "^1.1.0",
     "markdown-it-multimd-table": "^4.0.3",
-    "markdown-it-toc-done-right": "^4.1.0"
+    "markdown-it-toc-done-right": "^4.1.0",
+    "materialize-css": "^1.0.0-rc.2"
   }
 }

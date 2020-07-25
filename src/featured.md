@@ -3,11 +3,9 @@ title: Featured
 date: "2012-04-06"
 layout: layout.njk
 ---
-# Featured
-
 ::: work-items
 ::: work-item
-## Atoms for Peace
+## Atoms for Peace ![](https://cdn.onlinewebfonts.com/svg/img_519962.png)
 ### Ingenue
 
 https://www.youtube.com/watch?v=DpVfF4U75B8&feature=emb_logo
@@ -31,7 +29,7 @@ https://www.youtube.com/watch?v=DpVfF4U75B8&feature=emb_logo
 :::
 
 ::: work-item
-## Diner's Club Card
+## Diner's Club Card ![](https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/11016449961582988850-64.png)
 ### TV Commercial
 
 https://vimeo.com/394987145
@@ -57,7 +55,8 @@ https://vimeo.com/394987145
 :::
 
 ::: work-item
-## Interview in Japanese
+## Interview
+### in Japanese
 
 https://www.youtube.com/watch?v=1TI9_h_AE8I
 :::
@@ -85,8 +84,7 @@ https://www.youtube.com/watch?v=7i5C_jqFpH0
 
 ::: work-item
 ## BRIT Awards 2015
-### Paloma Faith
-#### Only Love Can Hurt Like This (Live)
+### Paloma Faith - Only Love Can Hurt Like This (Live)
 
 https://www.youtube.com/watch?v=_Dat9CRV800
 
