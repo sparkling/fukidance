@@ -11,12 +11,12 @@
       <div id="nav" class="wide">
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/choreography">Choreography</a></li>
-          <li><a href="/featured">Featured</a></li>
-          <li><a href="/reviews">Reviews</a></li>
-          <li><a href="/news">News</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li class="{{ 'active' if '/about' in page.url }}"><a href="/about">About</a></li>
+          <li class="{{ 'active' if '/choreography' in page.url }}"><a href="/choreography">Choreography</a></li>
+          <li class="{{ 'active' if '/featured' in page.url }}"><a href="/featured">Featured</a></li>
+          <li class="{{ 'active' if '/reviews' in page.url }}"><a href="/reviews">Reviews</a></li>
+          <li class="{{ 'active' if '/news' in page.url }}"><a href="/news">News</a></li>
+          <li class="{{ 'active' if '/contact' in page.url }}"><a href="/contact">Contact</a></li>
         </ul>
       </div>
       <h1>Fukiko Takase</h1>

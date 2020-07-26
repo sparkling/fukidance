@@ -234,10 +234,34 @@ body#home #nav {
   text-align: right;
 }
 
-#nav.wide ul li {
+#nav.wide li {
   text-align: right;
   display: inline;
   margin-right: 1em;
+}
+
+#nav.wide li.active{
+  padding: 0.5em;
+  border-radius: 40px;
+  border: 1px solid black;
+
+  }
+
+#nav.wide li.active a {
+
+}
+
+#nav.home.wide a {
+  color: burlywood;
+}
+
+#nav.home {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  float: right;
+  margin: 0.5em 0.75em;
 }
 
 #nav.wide li:last {
