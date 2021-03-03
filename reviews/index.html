@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fukiko Takase - Review</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+  </head>
+  <body>
+    <div id="grid-container">
+      <div id="nav" class="wide">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li class=""><a href="/about">About</a></li>
+          <li class=""><a href="/choreography">Choreography</a></li>
+          <li class=""><a href="/featured">Featured</a></li>
+          <li class="active"><a href="/reviews">Reviews</a></li>
+          <li class=""><a href="/news">News</a></li>
+          <li class=""><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <h1>Fukiko Takase</h1>
+      <h2 class="sub-heading">Dancer, Choreographer, Instructor</h2>
+
+      <div class="work-items">
+<div class="work-item">
+<p><a href="https://www.danceplug.com/articles/mcgregors-autobiography-is-an-unconventional-dance-spectacle">Dance Plug, Steven Woodruff, Autobiography review, 11/10/2018 Ahmanson Theatre, Los Angeles, USA</a></p>
+</div>
+<div class="work-item">
+<p><a href="https://www.fjordreview.com/company-wayne-mcgregor-entity/">Fjord Review, Sara Veale, Entity review, 19/10/2016 Laban Theatre, London, UK</a></p>
+</div>
+<div class="work-item">
+<p><a href="https://www.google.co.uk/amp/s/amp.ft.com/content/92d95cda-5ba1-11e5-9846-de406ccb37f2">Financial Times, Apollinaire Scherr, Tree of Codes review, 15/09/2015, The Armory, New York, USA</a></p>
+</div>
+<div class="work-item">
+<p><a href="https://www.google.co.uk/amp/s/www.independent.co.uk/arts-entertainment/theatre-dance/reviews/wayne-mcgregor-s-human-roundhouse-dance-review-london-a7891371.html%3famp">The Independent, Zoe Anderson, +/- Human review, 13/08/2017, Roundhouse, London, UK</a></p>
+</div>
+<div class="work-item">
+<p><a href="https://www.standard.co.uk/go/london/arts/wayne-mcgregor-autobiography-dance-review-if-c3po-designed-a-ballet-a3683266.html">Evening Standard, Laura Freeman, Autobiography review, 09/10/2017, Sadler’s Wells, London, UK</a></p>
+</div>
+<div class="work-item">
+<p><a href="https://dcmetrotheaterarts.com/2014/05/02/wayne-mcgregor-random-dance-kennedy-center/">DC Metro, Derek Mong, FAR review, 2 May 2014, Kennedy Center, Washington DC, USA</a></p>
+</div>
+<div class="work-item">
+<p><a href="https://www.google.co.uk/amp/s/www.anothermag.com/art-photography/9283/goshka-macuga-on-symbolism-theatricality-and-performance%3famp=1">AnOther, Goshka Macuga interview, 17 November 2016, UK</a></p>
+</div>
+<div class="work-item">
+<p><a href="https://www.google.co.uk/amp/s/bachtrack.com/es_ES/review-human-wayne-mcgregor-roundhouse-london-august-2017/amp=1">Bachtrack, Erin Whitcroft +/- Human review, 14th August, 2017, Roundhouse, London, UK</a></p>
+</div>
+<div class="work-item">
+<p><a href="https://www.google.co.uk/amp/s/www.nytimes.com/2017/08/14/arts/dance/wayne-mcgregor-roundhouse-london.amp.html">The New York Times, Roslyn Sulcas +/- Human Review, 14th August, 2017, Roundhouse, London, UK</a></p>
+</div>
+<div class="work-item">
+<p><a href="https://www.standard.co.uk/go/london/arts/company-wayne-mcgregorautobiography-review-work-of-art-and-science-has-little-soul-a3897641.html">Evening Standard / Go London, Emma Byrne, Autobiography Review, 27th July, 2018, Sadler’s Wells, London UK</a></p>
+</div>
+</div>
+
+    </div>
+    <script>
+    /**
+     * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
+     *
+     * @private
+     * @author Todd Motto
+     * @link https://github.com/toddmotto/foreach
+     * @param {Array|Object|NodeList} collection - Collection of items to iterate, could be an Array, Object or NodeList
+     * @callback requestCallback      callback   - Callback function for each iteration.
+     * @param {Array|Object|NodeList} scope=null - Object/NodeList/Array that forEach is iterating over, to use as the this value when executing callback.
+     * @returns {}
+     */
+      var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
+
+      var hamburgers = document.querySelectorAll(".hamburger");
+      var menuitems = document.querySelectorAll("#nav ul").item(0);
+      if (hamburgers.length > 0) {
+        forEach(hamburgers, function(hamburger) {
+          hamburger.addEventListener("click", function() {
+            this.classList.toggle("is-active");
+            menuitems.classList.toggle("is-active")
+          }, false);
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fukiko Takase - Featured</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+  </head>
+  <body>
+    <div id="grid-container">
+      <div id="nav" class="wide">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li class=""><a href="/about">About</a></li>
+          <li class=""><a href="/choreography">Choreography</a></li>
+          <li class=""><a href="/featured">Featured</a></li>
+          <li class=""><a href="/reviews">Reviews</a></li>
+          <li class="active"><a href="/news">News</a></li>
+          <li class=""><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      <h1>Fukiko Takase</h1>
+      <h2 class="sub-heading">Dancer, Choreographer, Instructor</h2>
+
+      <div class="work-items">
+<div class="work-item">
+<h2 id="performing-for-shiver-2020-summer!!">Performing for SHIVER 2020 Summer!!</h2>
+<p><a href="">https://ballenta.net/shiver</a></p>
+</div>
+</div>
+
+    </div>
+    <script>
+    /**
+     * forEach implementation for Objects/NodeLists/Arrays, automatic type loops and context options
+     *
+     * @private
+     * @author Todd Motto
+     * @link https://github.com/toddmotto/foreach
+     * @param {Array|Object|NodeList} collection - Collection of items to iterate, could be an Array, Object or NodeList
+     * @callback requestCallback      callback   - Callback function for each iteration.
+     * @param {Array|Object|NodeList} scope=null - Object/NodeList/Array that forEach is iterating over, to use as the this value when executing callback.
+     * @returns {}
+     */
+      var forEach=function(t,o,r){if("[object Object]"===Object.prototype.toString.call(t))for(var c in t)Object.prototype.hasOwnProperty.call(t,c)&&o.call(r,t[c],c,t);else for(var e=0,l=t.length;l>e;e++)o.call(r,t[e],e,t)};
+
+      var hamburgers = document.querySelectorAll(".hamburger");
+      var menuitems = document.querySelectorAll("#nav ul").item(0);
+      if (hamburgers.length > 0) {
+        forEach(hamburgers, function(hamburger) {
+          hamburger.addEventListener("click", function() {
+            this.classList.toggle("is-active");
+            menuitems.classList.toggle("is-active")
+          }, false);
+        });
+      }
+    </script>
+  </body>
+</html>
